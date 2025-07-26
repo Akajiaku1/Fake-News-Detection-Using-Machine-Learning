@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & artifacts
+data/*/*
+!data/*/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
