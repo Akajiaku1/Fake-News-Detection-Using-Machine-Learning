@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "fake-news-ml"
+version = "0.1.0"
+description = "Fake news detection using classical ML pipelines"
+authors = [{name="Ugochukwu Charles Akajiaku"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra -q"
