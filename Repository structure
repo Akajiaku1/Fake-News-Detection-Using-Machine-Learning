@@ -1,0 +1,38 @@
+Fake-News-Detection-Using-Machine-Learning
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── pyproject.toml
+├── Makefile
+├── Dockerfile
+├── .gitignore
+├── data
+│   ├── raw/.gitkeep
+│   ├── processed/.gitkeep
+│   └── external/.gitkeep
+├── artifacts
+│   └── .gitkeep
+├── notebooks
+│   └── 01_eda.ipynb  (placeholder – optional)
+├── src
+│   ├── __init__.py
+│   ├── config.py
+│   ├── data.py
+│   ├── features.py
+│   ├── models.py
+│   ├── train.py
+│   ├── evaluate.py
+│   ├── infer.py
+│   └── utils.py
+├── api
+│   └── app.py
+├── app
+│   └── streamlit_app.py
+├── scripts
+│   ├── download_data.sh
+│   ├── train.sh
+│   └── evaluate.sh
+└── tests
+    ├── __init__.py
+    ├── test_clean_text.py
+    └── test_train_pipeline.py
